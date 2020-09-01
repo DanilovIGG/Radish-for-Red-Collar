@@ -1,0 +1,637 @@
+html{
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+body{
+    font-size: 16px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    overflow-y: hidden;
+}
+
+a{
+    text-decoration: none;
+}
+.header{
+    position: static;
+    display: flex;
+    top:0;
+    left: 0;
+    justify-content: space-between;
+    width: 100vw;
+    z-index: 6;
+    margin-bottom: 6em;
+    
+}
+.menu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-right: 3.75rem;
+    
+}
+.footer{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    bottom: 3.66em;
+    left: 0;
+}
+
+.next_page_arrow img{
+    width: 100%;
+    height: 100%;
+    margin-left: 1.125rem;
+}
+.next_page_arrow{
+    margin-left: 3.875em;
+    display: flex;
+    justify-content: space-between;
+    width: 11.375rem;
+    align-items: center;
+}
+
+.pages{
+    width: 1000vw;
+    display: flex;
+    overflow: hidden;
+    position: relative;
+}
+
+.first_page__logo{
+    width: 50%;
+}
+.first_page__img{
+    width: 100%;
+    display: block;
+}
+.first_page{
+    display:flex;
+    align-items: center;
+    justify-content: center; 
+}
+.section{
+    Height: 100vh;
+    width: 100vw;
+    position: relative;
+    overflow: hidden;
+    font-size: 1rem;
+}
+.radish_first{
+    background: url(../photo/backgroundshort.png) no-repeat center right;
+    background-size: contain;
+    
+}
+
+.radish_logo{
+    margin-top: 2.6875rem;
+    margin-left: 3%;
+}
+.radish_first_radish_pic{
+    position: absolute;
+    right: 16.5%;
+    bottom: 0;
+}
+.radish_first_line1{
+    font-size: 7.125em;
+    font-weight: 1000;
+    line-height: 6.875rem;
+    color: #ed1a7e;
+    margin-bottom: 1em;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+}
+.radish_first_line2{
+    font-size: 3.125em;
+    line-height: 3.75rem;
+    color: #1b1b1b;
+    margin-bottom: 11.75rem;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+}
+.main_radish_pic{
+    width: 52.7%;
+    
+}
+
+.radish_first_content{
+    display: flex;
+    margin-left: 3%;
+    margin-top: 5.9375em;
+}
+
+.radish_first_right{
+    overflow: hidden;
+    width: 54.31em;
+    
+}
+.radish_first_background{
+    position: absolute;
+    top: 0;
+    bottom:0;
+    right: 0;
+    height: 100%;
+    z-index: 3;
+    display: block;
+}
+
+.radish_first_text{
+    position: relative;
+    z-index: 2;
+}
+
+.slide{
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125em;
+    color: #cecece;
+    text-transform: uppercase;
+    margin-right: 1%;
+}
+
+.social img{
+    margin-right: 2em;
+}
+
+.social{
+    position: relative;
+    z-index: 2;
+    margin-right: 1.875em;
+}
+
+.radish_second{
+    background: url(../photo/background.png) no-repeat center left;
+    background-size: contain;
+}
+
+
+.radish_second_content{
+    display: flex;
+    margin-left: 3%;
+    
+}
+
+.radish_second_line1{
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.375em;
+    color: #fff;
+    line-height: 4.375rem;
+    margin-bottom: 3.5rem;
+
+}
+.radish_second_line2{
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.375em;
+    line-height: 2.125rem;
+    color: #fff;
+    margin-bottom: 3.5rem;
+
+}
+.radish_second_line3{
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 1.375em;
+    line-height: 2.125rem;
+    color:#fff;
+    margin-bottom: 4.6875rem;
+}
+
+.radish-btn{
+    color: #fff;
+    background-color: #1b1b1b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 2em;
+    padding: 1em 2em;
+    font-size: 1.375em;
+    box-shadow: 0 19px 34px rgba(108, 10, 61, 0.45), 0 3px 40px rgba(58, 9, 35, 0.45);
+}
+.radish-btn__first{
+    margin-bottom: 13.3125rem;
+    
+}
+.radish_second_radish_pic{
+    position: absolute;
+    left: 29.1vw;
+    bottom: 0;
+}
+.vertical_link{
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transform: rotate(90deg);
+    top: 50%;
+    right: 0;
+    color: #d3d3d3;
+    text-transform: uppercase;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 1.125em;
+}
+
+
+.radish_sliced-content{
+    display:flex;
+    
+}
+
+.radish_sliced_left{
+    position: relative;
+    width: 42.1875vw;
+    height: 100vh;
+    background-color: white;
+}
+.radish_sliced-circle{ 
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    width: 4.625rem;
+    height: 4.625rem;
+    border-radius: 2.3125rem;
+    background-color: #1b1b1b;
+    color: #fff;
+    font-size: 1.125rem;
+    font-family: proxima-nova, sans-serif;
+    font-weight: 700;
+}
+.options{
+    color: #1b1b1b;
+    font-family: proxima-nova, sans-serif;
+    font-size: 1.375rem;
+    font-weight: 700;
+    line-height: 4.5rem;
+}
+.radish_sliced-cellulos{
+    position: absolute;
+    top: 15.0625rem;
+    left: 3.9375rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.radish_sliced-cellulos__name{
+    margin-right: 4.5rem;
+}
+
+.radish_sliced-water{
+    position: absolute;
+    top: 27.625rem;
+    right: 6.5625rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.radish_sliced-water__name{
+    margin-left: 4.5rem;
+}
+
+.radish_sliced-protein{
+    position: absolute;
+    top: 34.25rem;
+    left: 10.8125rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.radish_sliced-protein__name{
+    margin-right: 4.5rem;
+}
+
+.radish_sliced-fats{
+    position: absolute;
+    bottom: 22.8125rem;
+    right: 7.625rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.radish_sliced-fats__name{
+    margin-left: 4.5rem;
+}
+
+.radish_sliced-carbs{
+    position: absolute;
+    bottom: 17rem;
+    left: 9.5rem;
+    display: flex;
+    justify-content:space-between;
+    align-items: center;
+    
+}
+.radish_sliced-carbs__name{
+    margin-right: 4.5rem;
+}
+
+.radish_sliced_right{
+    position: relative;
+    width: 57.8125vw;
+    height: 100vh;
+    background-color: #f6f6f6;
+}
+
+.radish_sliced_pic{
+    margin-left: 8.9375rem;
+    margin-right: 3.9375rem;
+    margin-bottom: 2.375rem;
+    margin-top: 11.625rem;
+}
+
+.header-sliced{
+    margin-bottom: 2.75rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: inherit;
+}
+
+.sliced_radish_right_text{
+    
+    margin-top: 11.625rem;
+}
+.sliced_radish_right_text_line1{
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+    font-size: 4.375em;
+    color: #1b1b1b;
+    margin-left: 9.3125rem;
+
+}
+
+.sliced_radish_right_text_line2{
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 1.375em;
+    color: #1b1b1b;
+    margin-left: 9.3125rem;
+    line-height: 2.125rem;
+}
+
+.radish-btn__second{
+    margin-top: 4.8125rem;
+    margin-left: 9.3125rem;
+    box-shadow: 0 19px 34px rgba(108, 10, 61, 0.45), 0 3px 40px rgba(58, 9, 35, 0.45);
+}
+
+
+.useful_properties{
+    letter-spacing: 1.44px;
+    text-decoration: none;
+}
+
+.radish_prices{
+    background-color: #f6f6f6;
+}
+.radish_prices-content{
+    display: flex;
+    margin-top: 14.6875rem;
+    margin-left: 8.3125rem;
+}
+
+.standart_radish{
+    position: relative;
+}
+
+.btn__small{
+    width: 9.375rem;
+    height: 2.8125rem;
+    border-radius: 3.83rem;
+    border: 0.125rem solid;
+    font-size: 1.375rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 5rem;
+    background-color: inherit;
+
+}
+.green{
+    border-color: #68b98d;
+    color: #68b98d;
+}
+.red{
+    border-color:#df0c70;
+    color: #df0c70;
+}
+.price{
+    width: 9.25rem;
+    height: 9.25rem;
+    box-shadow: 0 1.875rem 2.5rem rgba(23, 23, 23, 0.06);
+    background-color: #ffffff;
+    border-radius: 4.625rem;
+    position: absolute;
+}
+
+.price_standart{
+    top:5.25rem;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.price_inner{
+    
+}
+
+.num{
+    font-size: 3.5625rem;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 900;
+}
+
+.amount{
+    display: flex;
+    justify-content: center;
+    font-size: 1.4374rem;
+    line-height: 0.3rem;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+.amount .rubls{
+    font-size: 1rem;
+}
+
+.heat_title{
+    font-size: 1.625rem;
+    line-height: 2.125rem;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+}
+
+.heat_subtitle{
+    font-size: 1.375rem;
+    line-height: 2.125rem;
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    color: #757575;
+}
+
+.premium_radish{
+    margin-left: 13.125rem;
+    position: relative;
+}
+
+.price_premium{
+    top:5.25rem;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+}
+
+.content{
+    display: flex;
+    
+}
+
+.content-left{
+    margin-left: 3.9375rem;
+}
+
+.content-right{
+    margin-left: 12.125rem;
+}
+
+.content-left_line2{
+    color: #c8c8c8;
+    font-size: 22px;
+    font-weight: 400;
+    line-height: 80px;
+}
+
+.content-left_line1{
+    color: #1b1b1b;
+    font-family: proxima-nova, sans-serif;
+    font-size: 4.375rem;
+    font-weight: 900;
+    line-height: 4.375rem;
+}
+
+.label-checkbox1 .fake{
+    width: 9.375rem;
+    height: 2.8125rem;
+    border-radius: 1.4375rem;
+    background-color: #e9e9e9;
+}
+
+.label-checkbox1 input{
+    display: none;
+}
+
+.dishes{
+    background-color: #1b1b1b;
+}
+
+.dishes-content{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dishes-content_element__line2{
+    font-family: proxima-nova, sans-serif;
+    font-size: 1.125rem;
+    color: #727272;
+    font-weight: 400;
+}
+.dishes-content_element__line1{
+    font-family: proxima-nova, sans-serif;
+    font-size: 1.375rem;
+    color:#fff;
+    font-weight: 700;
+
+}
+.dishes-content_element1{
+    position: absolute;
+    left: 10.125rem;
+    top: 14.625rem;
+}
+
+
+.dishes-content_element2{
+    position: absolute;
+    left: 31.7vw;
+    bottom: 11.1875rem;
+}
+
+.dishes-content_element3{
+    position: absolute;
+    right: 13.125rem;
+    top: 11.3125rem;
+}
+
+.dishes-content .header .menu{
+    color:#fff;
+}
+
+
+.dishes-arrows{
+    position: absolute;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    bottom:11.625rem ;
+    right: 13.1875rem;
+    width: 11.125rem;
+}
+
+.left_btn img{
+    width: 0.5rem;
+    height: 0.875rem;
+    top: 1.8rem;
+    left: 50%;
+}
+
+.left_btn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 2.3125rem;
+    background-color: inherit;
+    border: 1px solid #ffffff;
+    width: 4.625rem;
+    height: 4.625rem;
+    position: relative;
+}
+
+.right_btn img{
+    width: 0.5rem;
+    height: 0.875rem;
+}
+
+.right_btn{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border-radius: 2.3125rem;
+    background-color: inherit;
+    border: 1px solid #ffffff;
+    width: 4.625rem;
+    height: 4.625rem;
+    position: relative;
+}
